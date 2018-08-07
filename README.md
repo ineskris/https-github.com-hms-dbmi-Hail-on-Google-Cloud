@@ -28,7 +28,7 @@ gcloud dataproc clusters create *cluster-name* \
 --initialization-actions=gs://dataproc-initialization-actions/conda/bootstrap-conda.sh,gs://path_to/init_notebook.py
 ```
 
-2. Connect your cluster and open Jupyter Notebook
+2. Connect to your cluster and open Jupyter Notebook
 
 - Connect by HTTP traffic
 Open a firewall with the right port #port in Network -> VPC network -> Firewall rules
